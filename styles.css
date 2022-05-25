@@ -104,25 +104,25 @@ body{
     text-shadow: 2px 2px 0px #323232;
  }
   #slides .slide_1 {
-     background: url("img/Cake1.png");
+     background: url("Images/Cake1.png");
      background-repeat: no-repeat;
      background-size: cover;
      height: 340px;
   }
   #slides .slide_2 {
-     background: url("img/Cake2.png");
+     background: url("Images/Cake2.png");
      background-repeat: no-repeat;
      background-size: cover;
      height: 340px;
   }
   #slides .slide_3 {
-     background: url("img/Cake3.png");
+     background: url("Images/Cake3.png");
      background-repeat: no-repeat;
      background-size: cover;
      height: 340px;
   }
   #slides .slide_4 {
-     background: url("img/Cake4.png");
+     background: url("Images/Cake4.png");
      background-repeat: no-repeat;
      background-size: cover;
      height: 340px;
