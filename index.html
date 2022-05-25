@@ -7,15 +7,18 @@
         <meta name="description" content="Baked Stuff">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </head>
     <body>
-        <div class="hero">
+        <div class="navigation">
             <nav>
-                <img class="logo" src="Images/Logo.png">
+                <img class="logo" src="img/Logo.png">
                 <ul>
-                    <li><a href='#'>HOME</a></li>
-                    <li><a href='#'>ABOUT</a></li>
-                    <li><a href='#'>CONTACTS</a></li>
+                  <li><a href="index.php">HOME</a></li>
+                  <li><a href='#'>ABOUT</a></li>
+                  <li><a href='contacts.php'>CONTACTS</a></li>
+                  <li><a href='signup.php' target="_blank">SIGN UP</a></li>
+                  <li><a href='login.php'>LOG IN</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,7 +28,7 @@
             <input type="radio" name="slider" id="slide2">
             <input type="radio" name="slider" id="slide3">
             <input type="radio" name="slider" id="slide4">
-            <div id="slides">
+            <div id="slides" class="mySlides">
                <div id="overflow">
                   <div class="inner">
                      <div class="slide slide_1">
@@ -68,5 +71,67 @@
                <label for="slide4"></label>
             </div>
          </div>
+         <!-- Products -->
+         <center>
+            <h1>Products from 2 of the famous restaurant chain,<br>Pizza Hut and Greenwich</h1>
+            <div class="products">
+               <ul>
+                  <li>
+                     <a href="https://www.greenwichdelivery.com/store-selection">
+                     <div class="productImg">
+                        <img class="item" src="img/BananaCake.jpg">
+                     </div>
+                     <div class="productTitle text">
+                        Banana Cake
+                     </div>
+                     <div class="productDiscription text">
+                        <p>A cake prepared using banana as a primary ingredient and typical cake ingredients. It can be prepared in various manners, including as a layer cake, as muffins and as cupcakes.</p>
+                     </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.greenwichdelivery.com/store-selection">
+                     <div class="productImg">
+                        <img class="item" src="img/CheeseLoaf.jpg">
+                     </div>
+                     <div class="productTitle text">
+                        CheeseLoaf
+                     </div>
+                     <div class="productDiscription text">
+                        <p>A type of basic bread that is flavored with cheese. The cheese is often grated and kneaded into the dough and/or can be used to top the dough.
+                        </p>
+                     </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.pizzahut.com.ph/home?isShowWarning=1&callback=combo-detail/9bbe18fe-492c-4b1b-92a4-d721d04e8410" class="zoom">
+                     <div class="productImg">
+                        <img class="item" src="img/EggPie.jpg">
+                     </div>
+                     <div class="productTitle text">
+                        Egg Pie
+                     </div>
+                     <div class="productDiscription text">
+                        <p>Made with milk, sugar, eggs, and sometimes with a touch of calamansi juice/zest to brighten up this otherwise very sweet pie. In keeping with tradition, I used canned evaporated milk and sweetened condensed milk.</p>
+                     </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.pizzahut.com.ph/home?isShowWarning=1&callback=combo-detail/20ceb5e0-3271-48aa-9821-d050eb4d14fe">
+                     <div class="productImg">
+                        <img class="item" src="img/Egg Tarts.jpg">
+                     </div>
+                     <div class="productTitle text">
+                        Egg Tarts
+                     </div>
+                     <div class="productDiscription text">
+                        <p>One of the most famous Chinese desserts is the classic egg tart,
+                           a delicious pastry consisting of a flaky outer shell with a creamy, but firm egg custard in the center. The origin of this traditional Chinese dessert is vague.</p>
+                     </div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </center>
     </body>
 </html>
